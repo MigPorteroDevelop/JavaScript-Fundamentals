@@ -24,7 +24,7 @@ Let's learn the basics of building code.
 
 #### 9. [Comparisons](#comparisons)
 
-#### 10. [Conditional execution: if, '?'](##conditional-execution-if)
+#### 10. [Conditional execution: if, '?'](#conditional-execution-if)
 
 #### 11. [Logical Operators](#logical-operators)
 
