@@ -6,8 +6,7 @@ Let's learn the basics of building code.
 
 ####
 
-## [Sección 1: Introducción](#sección-1-introducción)
-Este es el contenido de la introducción.
+#### The Header
 
 #### 2. [Code structure](#code-structure)
 
@@ -45,8 +44,7 @@ Este es el contenido de la introducción.
 
 ## Documentation
 
-## Sección 1: Introducción
-Contenido detallado de la introducción.
+[Link to Header](#the-header)
 
 #### 2. Code structure (#code-structure)
 Este es el contenido de la sección "Code structure".
