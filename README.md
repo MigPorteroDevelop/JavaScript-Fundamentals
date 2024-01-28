@@ -6,7 +6,8 @@ Let's learn the basics of building code.
 
 ####
 
-## Sección 1: Introducción
+## [Sección 1: Introducción](#sección-1-introducción)
+Este es el contenido de la introducción.
 
 #### 2. [Code structure](#code-structure)
 
@@ -44,8 +45,8 @@ Let's learn the basics of building code.
 
 ## Documentation
 
-## [Sección 1: Introducción](#sección-1-introducción)
-Este es el contenido de la introducción.
+## Sección 1: Introducción
+Contenido detallado de la introducción.
 
 #### 2. Code structure (#code-structure)
 Este es el contenido de la sección "Code structure".
