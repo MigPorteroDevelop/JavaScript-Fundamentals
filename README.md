@@ -6,7 +6,7 @@ Let's learn the basics of building code.
 
 ####
 
-[Link to Header](#the-header)
+[1.¡Hola, mundo!](#the-header)
 
 #### 2. [Code structure](#code-structure)
 
