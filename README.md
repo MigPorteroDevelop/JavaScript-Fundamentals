@@ -6,7 +6,7 @@ Let's learn the basics of building code.
 
 ####
 
-[1.¡Hola, mundo!](#the-header)
+[1.¡Hola, mundo!](#1-¡hello-world!)
 
 #### 2. [Code structure](#code-structure)
 
@@ -44,7 +44,7 @@ Let's learn the basics of building code.
 
 ## Documentation
 
-#### The Header
+#### 1. ¡Hello, world!
 
 #### 2. Code structure (#code-structure)
 Este es el contenido de la sección "Code structure".
