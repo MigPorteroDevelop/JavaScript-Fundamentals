@@ -49,5 +49,5 @@ Let's learn the basics of building code.
 
 ## Documentation
 
-[¡Hello, world!](#¡Hello, world!)
+[¡Hello, world!](#1. ¡Hello, world!)
 
