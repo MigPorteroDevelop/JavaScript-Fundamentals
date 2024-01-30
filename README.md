@@ -44,7 +44,7 @@ Let's learn the basics of building code.
 
 ## Documentation
 
-#### 1. Hello, world!
+#### Hello, world!
 
 #### 2. Code structure (#code-structure)
 Este es el contenido de la sección "Code structure".
