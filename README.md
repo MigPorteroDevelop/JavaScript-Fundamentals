@@ -57,7 +57,12 @@ Las podemos separar con `;` para que quede mas organizado, y se ejecutarán una 
 Siempre es recomendable ponerlo entre sentencias para que no haya errores de código.
 
 #### The modern "use strict" mode
-Este es el contenido de la sección "The modern 'use strict' mode".
+El `use strict` se utiliza para solucionar problemas de compatibilidad. <br>
+Se puede combinar sintaxis antigua de Javascript y nueva.<br>
+A lo largo el tiempo, Javascript ha evolucionado sin problemas de compatibilidad, pero en 2009, se añadieron nuevas características al lenguaje y se modificaron otras.<br>
+Para mantener el código antiguo funcionando correctamente, las modificaciones están desactivadas por defecto, y aquí es cuándo entra en juego `use strict`. <br>
+Al colocarse al principio de un script o de una función, este funciona de la *madera moderna*.<br>
+Un apunte interesante, es que Javascript moderno, funciona con *clases* y *módulos*, que automáticamente habilitan el `use strict`. Por lo que no es necesario activarlo.
 
 #### 4. Variables (#variables)
 Este es el contenido de la sección "Variables".
