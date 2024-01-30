@@ -6,7 +6,7 @@ Let's learn the basics of building code.
 
 ####
 
-[Link to Header](#the-header)
+[Hello, world!](#the-header)
 
 
 #### 2. [Code structure](#code-structure)
@@ -45,7 +45,7 @@ Let's learn the basics of building code.
 
 ## Documentation
 
-#### The Header
+#### Hello, world!
 
 #### 2. Code structure (#code-structure)
 Este es el contenido de la sección "Code structure".
