@@ -45,6 +45,10 @@ Let's learn the basics of building code.
 ## Documentation
 
 #### Hello, world!
+Le etiqueta <script> se puede colocar en casi cualquier parte del documento HTML. 
+La etiqueta <script> tiene algunos atributos, que ya no se utilizan en la actualidad.
+Otro punto a tener en cuenta es que si tenemos una parte de código en Javascript, que es extensa, mejor la ponemos en un archivo a parte, así tenemos el código mas organizado y podemos trabajar mejor con él. 
+Además, el navegador lo guardará en caché. Por lo que el código solo se descargará una vez, reduciendo el tiempo de carga.
 
 #### 2. Code structure (#code-structure)
 Este es el contenido de la sección "Code structure".
