@@ -56,7 +56,7 @@ Son la sintaxis y comandos que realizan acciones, como por ejemplo el alert del 
 Las podemos separar con `;` para que quede mas organizado, y se ejecutarán una detrás de otra. <br> 
 Siempre es recomendable ponerlo entre sentencias para que no haya errores de código.
 
-#### The modern "use strict" mode (#the-modern-use-strict-mode)
+#### The modern "use strict" mode
 Este es el contenido de la sección "The modern 'use strict' mode".
 
 #### 4. Variables (#variables)
