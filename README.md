@@ -64,7 +64,7 @@ Para mantener el código antiguo funcionando correctamente, las modificaciones e
 Al colocarse al principio de un script o de una función, este funciona de la **manera moderna**.<br>
 Un apunte interesante, es que Javascript moderno, funciona con **clases** y **módulos**, que automáticamente habilitan el `use strict`. Por lo que no es necesario activarlo.
 
-#### 4. Variables
+#### Variables
 Podemos decir que las variables son **contenedores** de información, dónde guardamos **datos** importantes. <br>
 Lo podemos hacer uno por uno, o en línea. En línea no es tan recomendable, por la legibilidad <br>
     • let message = 'Hola!'; <br>
@@ -73,28 +73,26 @@ Las variables tienen dos **limitaciones**: <br>
     • Solo puede incluir letras, dígitos, o los símbolos $ y _. <br>
     • El primer carácter no puede ser un dígito. <br>
 
-#### 5. Types of data
-    Hay diferentes tipos de datos en Javascript. <br>
-
-    • **Number**, representa tanto números enteros como de punto flotante. <br>
-      Además de los comunes, existen otros **valores especiales**, como *Infinity* y *NaN*. <br>
+#### Types of data
+    • Number, representa tanto números enteros como de punto flotante.
+      Además de los comunes, existen otros valores especiales, como Infinity y NaN.
       
-    • **BigInt**, el tipo number no puede representar número a partir de una cifra muy alta, por lo que utilizamos  **BigInt** para número a partir de 9007199254740992 o 2^53. <br>
-      Para indicar que es un **BigInt**, añadimos una **n** al final del número. 123….21312**n**. <br>
+    • BigInt, el tipo number no puede representar número a partir de una cifra muy alta, por lo que utilizamos  BigInt para número a partir de 9007199254740992 o 2^53.
+      Para indicar que es un BigInt, añadimos una n al final del número. 123….21312n.
       
-    • **String**, cadena de caracteres y debe colocarse entre comillas. <br>
+    • String, cadena de caracteres y debe colocarse entre comillas.
       
-    • **Boolean**, solo tiene dos valores posibles, *false* o *true*. <br>
+    • Boolean, solo tiene dos valores posibles, false o true.
       
-    • **Null**, no es ninguno de los tipos anteriores. Representa a *nada*, *vacío* o *valor desconocido*. <br>
+    • Null, no es ninguno de los tipos anteriores. Representa a nada, vacío o valor desconocido.
       
-    • **Undefined**, quiere decir que no se le ha asignado un valor.<br>
+    • Undefined, quiere decir que no se le ha asignado un valor.
       
-    • **Object y Symbol**, los objetos pueden almacenar un conjunto de datos y entidades complejas. <br>
-      Symbol se utiliza para crear identificadores únicos para estos objetos. <br>
+    • Object y Symbol, los objetos pueden almacenar un conjunto de datos y entidades complejas.
+      Symbol se utiliza para crear identificadores únicos para estos objetos.
       
-    • **El operador typeof**, devuelve el tipo de dato del operando. Es importante decir que es un *operador* y no una *función* <br>
-      Se utiliza (), por agrupación matemática, no por ser parte del operador. <br>
+    • El operador typeof, devuelve el tipo de dato del operando. Es importante decir que es un operador y no una función.
+      Se utiliza (), por agrupación matemática, no por ser parte del operador.
 
 
 #### 6. Interaction: alert, prompt, confirm (#interaction-alert-prompt-confirm)
