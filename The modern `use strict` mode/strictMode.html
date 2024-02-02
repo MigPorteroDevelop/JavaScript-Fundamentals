@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script>
-      x = 3.14; // Esto no causará un error.
-      console.log(x + " -> Esto no está mal, porque en el antiguo Javascript se permitía no nombrar las variables.")
+<html>
+  <script>
+    x = 3.14; // No error.
+    console.log( x + " -> This is not bad, because in the old Javascript it was allowed not to name variables."
+    );
 
-      function myFunction() {
-        "use strict";
-        y = 3.14; // Esto no funciona correctamente porque no está declarada la "y", usando `use strict.`
-        console.log(y);
-      }
-      myFunction();
-    </script>
-  </body>
+    function myFunction() {
+      "use strict";
+      y = 3.14; // This does not work correctly because the `y` is not declared, using `use strict.`.
+      console.log(y);
+    }
+    myFunction();
+  </script>
 </html>

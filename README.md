@@ -24,7 +24,7 @@ Let's learn the basics of building code.
 
 #### 9. [Comparisons](#comparisons)
 
-#### 10. Conditional execution if (#conditional-execution-if)
+#### 10. [Conditional execution if] (#conditional-execution-if)
 
 #### 11. [Logical Operators](#logical-operators)
 
@@ -94,9 +94,12 @@ Las variables tienen dos **limitaciones**: <br>
     • El operador typeof, devuelve el tipo de dato del operando. Es importante decir que es un operador y no una función.
       Se utiliza (), por agrupación matemática, no por ser parte del operador.
 
-
-#### Interaction: alert, prompt, confirm (#interaction-alert-prompt-confirm)
-Este es el contenido de la sección "Interaction: alert, prompt, confirm".
+#### Interaction: alert, prompt, confirm
+    • Alert, muestra mensaje hasta que el usuario acepte.
+      
+    • Prompt, acepta dos argumentos, un título y un segundo parámetro opcional, que es el valor inicial de entrada.
+      
+    • Confirm, muestra OK y CANCELAR, cuyos respectivos valores son true y false.
 
 #### Type Conversions (#type-conversions)
 Este es el contenido de la sección "Type Conversions".

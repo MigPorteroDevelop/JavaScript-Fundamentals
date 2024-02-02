@@ -1,27 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script>
+<html>
+  <script>
+    console.log("Same results");
+    for (let i = 0; i < 5; i++) console.log(i);
 
-      console.log("Same results")
-      for (let i = 0; i < 5; i++) console.log(i);
+    console.log("----------");
 
-      console.log("----------")
+    for (let i = 0; i < 5; ++i) console.log(i);
 
-      for (let i = 0; i < 5; ++i) console.log(i);
+    console.log("Even numbers");
 
-      console.log("Even numbers")
-
-      for (let i = 2; i <= 10; i++) {
-        if (i % 2 == 0) {
-          console.log(i);
-        }
+    for (let i = 2; i <= 10; i++) {
+      if (i % 2 == 0) {
+        console.log(i);
       }
-    </script>
-  </body>
+    }
+  </script>
 </html>
