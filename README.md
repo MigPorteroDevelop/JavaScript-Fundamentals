@@ -30,7 +30,7 @@ Let's learn the basics of building code.
 
 #### 12. [Operador Nullish Coalescing '??'](#operador-nullish-coalescing)
 
-#### 13. [Bucles: while y for](#bucles-while-y-for)
+#### 13. [Loops: while and for](#loops:-while-and-for)
 
 #### 14. [The "switch" statement](#the-switch-statement)
 
