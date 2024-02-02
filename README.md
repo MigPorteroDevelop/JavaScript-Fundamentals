@@ -120,38 +120,38 @@ Este es el contenido de la sección "Operador Nullish Coalescing '??'".
 Los bucles son una forma de repetir elementos de una lista o ejecutar un código tantas veces como se indique.<br>
 En este documento voy a exponer los **básicos**:<br>
 
-    • While, este bucle se ejecuta mientras la condición sea verdadera. Con while, primero se hace una comprobación, y si se cumple, comienza la ejecución. <br> 
-      A cada ejecución le llamamos iteración. <br>
-      Punto a tener en cuenta, cualquier número diferente a 0, se evalúa como verdadero. Por lo tanto, lo que se indica en la condición, es el número de iteraciones. Cuándo se llega a 0, el bucle se cierra. <br> 
-      Además, i++, es muy importante, puesto que si no se pone, el bucle será infinito.<br>
+    • While, este bucle se ejecuta mientras la condición sea verdadera. Con while, primero se hace una comprobación, y si se cumple, comienza la ejecución. 
+      A cada ejecución le llamamos iteración.
+      Punto a tener en cuenta, cualquier número diferente a 0, se evalúa como verdadero. Por lo tanto, lo que se indica en la condición, es el número de iteraciones. Cuándo se llega a 0, el bucle se cierra. 
+      Además, i++, es muy importante, puesto que si no se pone, el bucle será infinito.
           
           let i = 0
-          while( i < 3 ) { <br>
-            alert(“Bucle while” + 1) <br>
-            i++<br>
-            	} <br>
+          while( i < 3 ) {
+            alert(“Bucle while” + 1)
+            i++
+            	}
 
-	      let i = 3; <br>
-	      while (i) { <br>
-	      alert(i)<br>
-	      i--;<br>
-                  }	<br>
+	      let i = 3;
+	      while (i) {
+	      alert(i)
+	      i--;
+                  }	
 
-    • Do...while, primero se ejecuta el cuerpo y después se comprueba la condición, esto se usa, cuándo mínimo se quiere ejecutar una vez, independientemente si se cumple o no la condición.<br> 
+    • Do...while, primero se ejecuta el cuerpo y después se comprueba la condición, esto se usa, cuándo mínimo se quiere ejecutar una vez, independientemente si se cumple o no la condición.
 	
-	let i = 0; <br>
-	do { <br>
-	 alert(i);<br>
-	 i++; <br>
-	}while (1 < 3);<br>
+	let i = 0;
+	do {
+	 alert(i);
+	 i++;
+	}while (1 < 3);
 
-    • For, el bucle empieza, y si la condición es true, se ejecuta el código.<br>
-      Podemos utilizar break para detener en cualquier momento el bucle, por ejemplo, si una condición no se cumple. <br>
+    • For, el bucle empieza, y si la condición es true, se ejecuta el código.
+      Podemos utilizar break para detener en cualquier momento el bucle, por ejemplo, si una condición no se cumple.
       Podemos utilizar continue, para detener el bucle solo si se cumple la condición, y seguir con el resto.
       
-      for(let i = 0;  i < 3; i++ ) { <br>
-          alert(i) <br>
-          }<br>
+      for(let i = 0;  i < 3; i++ ) {
+          alert(i)
+          }
 
 #### 14. The "switch" statement (#the-switch-statement)
 Este es el contenido de la sección "The 'switch' statement".
