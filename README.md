@@ -95,28 +95,28 @@ Las variables tienen dos **limitaciones**: <br>
       Se utiliza (), por agrupación matemática, no por ser parte del operador.
 
 
-#### 6. Interaction: alert, prompt, confirm (#interaction-alert-prompt-confirm)
+#### Interaction: alert, prompt, confirm (#interaction-alert-prompt-confirm)
 Este es el contenido de la sección "Interaction: alert, prompt, confirm".
 
-#### 7. Type Conversions (#type-conversions)
+#### Type Conversions (#type-conversions)
 Este es el contenido de la sección "Type Conversions".
 
-#### 8. Basic operators, mathematics (#basic-operators-mathematics)
+#### Basic operators, mathematics (#basic-operators-mathematics)
 Este es el contenido de la sección "Basic operators, mathematics".
 
-#### 9. Comparisons (#comparisons)
+#### Comparisons (#comparisons)
 Este es el contenido de la sección "Comparisons".
 
-#### 10. Conditional execution: if, '?' (#conditional-execution-if)
+#### Conditional execution: if, '?' (#conditional-execution-if)
 Este es el contenido de la sección "Conditional execution: if, '?'".
 
-#### 11. Logical Operators (#logical-operators)
+#### Logical Operators (#logical-operators)
 Este es el contenido de la sección "Logical Operators".
 
-#### 12. Operador Nullish Coalescing '??' (#operador-nullish-coalescing)
+#### Operador Nullish Coalescing '??' (#operador-nullish-coalescing)
 Este es el contenido de la sección "Operador Nullish Coalescing '??'".
 
-#### 13. Loops: while and for
+#### Loops: while and for
 Los bucles son una forma de repetir elementos de una lista o ejecutar un código tantas veces como se indique.<br>
 En este documento voy a exponer los **básicos**:<br>
 
