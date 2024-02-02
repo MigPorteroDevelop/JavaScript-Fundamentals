@@ -61,20 +61,39 @@ El `use strict` se utiliza para solucionar problemas de compatibilidad. <br>
 Se puede combinar sintaxis antigua de Javascript y nueva.<br>
 A lo largo el tiempo, Javascript ha evolucionado sin problemas de compatibilidad, pero en 2009, se añadieron nuevas características al lenguaje y se modificaron otras.<br>
 Para mantener el código antiguo funcionando correctamente, las modificaciones están desactivadas por defecto, y aquí es cuándo entra en juego `use strict`. <br>
-Al colocarse al principio de un script o de una función, este funciona de la *madera moderna*.<br>
-Un apunte interesante, es que Javascript moderno, funciona con *clases* y *módulos*, que automáticamente habilitan el `use strict`. Por lo que no es necesario activarlo.
+Al colocarse al principio de un script o de una función, este funciona de la **manera moderna**.<br>
+Un apunte interesante, es que Javascript moderno, funciona con **clases** y **módulos**, que automáticamente habilitan el `use strict`. Por lo que no es necesario activarlo.
 
-#### 4. Variables (#variables)
-Podemos decir que las variables son contenedores de información, dónde guardamos datos importantes. <br>
+#### 4. Variables
+Podemos decir que las variables son **contenedores** de información, dónde guardamos **datos** importantes. <br>
 Lo podemos hacer uno por uno, o en línea. En línea no es tan recomendable, por la legibilidad <br>
     • let message = 'Hola!'; <br>
     • let user = 'John', age = 25, message = 'Hola'; <br>
-Las variables tienen dos limitaciones: <br>
+Las variables tienen dos **limitaciones**: <br>
     • Solo puede incluir letras, dígitos, o los símbolos $ y _. <br>
     • El primer carácter no puede ser un dígito. <br>
 
-#### 5. Types of data (#types-of-data)
-Este es el contenido de la sección "Types of data".
+#### 5. Types of data
+    • **Number**, representa tanto números enteros como de punto flotante. <br>
+      Además de los comunes, existen otros **valores especiales**, como *Infinity* y *NaN*. <br>
+      
+    • **BigInt**, el tipo number no puede representar número a partir de una cifra muy alta, por lo que utilizamos  **BigInt** para número a partir de 9007199254740992 o 2^53. <br>
+      Para indicar que es un **BigInt**, añadimos una **n** al final del número. 123….21312**n**. <br>
+      
+    • **String**, cadena de caracteres y debe colocarse entre comillas. <br>
+      
+    • **Boolean**, solo tiene dos valores posibles, *false* o *true*. <br>
+      
+    • **Null**, no es ninguno de los tipos anteriores. Representa a *nada*, *vacío* o *valor desconocido*. <br>
+      
+    • **Undefined**, quiere decir que no se le ha asignado un valor.<br>
+      
+    • **Object y Symbol**, los objetos pueden almacenar un conjunto de datos y entidades complejas. <br>
+      Symbol se utiliza para crear identificadores únicos para estos objetos. <br>
+      
+    • **El operador typeof**, devuelve el tipo de dato del operando. Es importante decir que es un *operador* y no una *función* <br>
+      Se utiliza (), por agrupación matemática, no por ser parte del operador. <br>
+
 
 #### 6. Interaction: alert, prompt, confirm (#interaction-alert-prompt-confirm)
 Este es el contenido de la sección "Interaction: alert, prompt, confirm".
@@ -99,12 +118,12 @@ Este es el contenido de la sección "Operador Nullish Coalescing '??'".
 
 #### 13. Loops: while and for
 Los bucles son una forma de repetir elementos de una lista o ejecutar un código tantas veces como se indique.<br>
-En este documento voy a exponer los *básicos*:<br>
+En este documento voy a exponer los **básicos**:<br>
 
     • While, este bucle se ejecuta mientras la condición sea verdadera. Con while, primero se hace una comprobación, y si se cumple, comienza la ejecución. <br> 
-      A cada ejecución le llamamos **iteración**. <br>
-      Punto a tener en cuenta, cualquier número diferente a 0, se evalúa como verdadero. Por lo tanto, lo que se indica en la condición, es el número de iteraciones. Cuándo se llega a 0, el bucle se cierra.  <br> 
-      Además, *i++*, es muy importante, puesto que si no se pone, el bucle será infinito.<br>
+      A cada ejecución le llamamos iteración. <br>
+      Punto a tener en cuenta, cualquier número diferente a 0, se evalúa como verdadero. Por lo tanto, lo que se indica en la condición, es el número de iteraciones. Cuándo se llega a 0, el bucle se cierra. <br> 
+      Además, i++, es muy importante, puesto que si no se pone, el bucle será infinito.<br>
           
           let i = 0
           while( i < 3 ) { <br>
@@ -126,9 +145,9 @@ En este documento voy a exponer los *básicos*:<br>
 	 i++; <br>
 	}while (1 < 3);<br>
 
-    • For, el bucle empieza, y si la condición es **true**, se ejecuta el código.<br>
-      Podemos utilizar **break** para detener en cualquier momento el bucle, por ejemplo, si una condición no se cumple. <br>
-      Podemos utilizar **continue**, para detener el bucle solo si se cumple la condición, y seguir con el resto.
+    • For, el bucle empieza, y si la condición es true, se ejecuta el código.<br>
+      Podemos utilizar break para detener en cualquier momento el bucle, por ejemplo, si una condición no se cumple. <br>
+      Podemos utilizar continue, para detener el bucle solo si se cumple la condición, y seguir con el resto.
       
       for(let i = 0;  i < 3; i++ ) { <br>
           alert(i) <br>
