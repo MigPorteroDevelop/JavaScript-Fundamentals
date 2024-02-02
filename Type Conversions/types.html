@@ -1,0 +1,33 @@
+<html>
+  <script>
+    alert(1 + "2"); // '12' (string to right)
+    alert("1" + 2); // '12' (string to link)
+
+    ///////////////////////////////////////////////////////
+
+    let value = true;
+    alert(typeof value); // boolean
+
+    value = String(value); // now value is the string "true"
+    alert(typeof value); // string
+
+    ///////////////////////////////////////////////////////
+
+    alert("6" / "2");
+
+    let str = "123";
+    alert(typeof str); // string
+
+    let num = Number(str);
+
+    alert(typeof num);
+
+    ///////////////////////////////////////////////////////
+
+    alert(Boolean(1)); // true
+    alert(Boolean(0)); // false
+
+    alert(Boolean("hola")); // true
+    alert(Boolean("")); // false
+  </script>
+</html>

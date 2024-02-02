@@ -77,7 +77,7 @@ Las variables tienen dos **limitaciones**: <br>
     • Number, representa tanto números enteros como de punto flotante.
       Además de los comunes, existen otros valores especiales, como Infinity y NaN.
       
-    • BigInt, el tipo number no puede representar número a partir de una cifra muy alta, por lo que utilizamos  BigInt para número a partir de 9007199254740992 o 2^53.
+    • BigInt, el tipo number no puede representar número a partir de una cifra muy alta, por lo que utilizamos    BigInt para número a partir de 9007199254740992 o 2^53.
       Para indicar que es un BigInt, añadimos una n al final del número. 123….21312n.
       
     • String, cadena de caracteres y debe colocarse entre comillas.
@@ -91,7 +91,7 @@ Las variables tienen dos **limitaciones**: <br>
     • Object y Symbol, los objetos pueden almacenar un conjunto de datos y entidades complejas.
       Symbol se utiliza para crear identificadores únicos para estos objetos.
       
-    • El operador typeof, devuelve el tipo de dato del operando. Es importante decir que es un operador y no una función.
+    • El operador typeof, devuelve el tipo de dato del operando. Es importante decir que es un operador y no una    función.
       Se utiliza (), por agrupación matemática, no por ser parte del operador.
 
 #### Interaction: alert, prompt, confirm
@@ -101,8 +101,17 @@ Las variables tienen dos **limitaciones**: <br>
       
     • Confirm, muestra OK y CANCELAR, cuyos respectivos valores son true y false.
 
-#### Type Conversions (#type-conversions)
-Este es el contenido de la sección "Type Conversions".
+#### Type Conversions
+    • ToString, utilizamos esta conversión cuándo necesitamos representar en texto un valor, ya sea número, booleano, null…
+      
+    • ToNumber, ocurre automáticamente en funciones matemáticas y expresiones, cuando se quiere operar con dos números, y estos están puesto como string, directamente pasan a ser usados como números.
+        ◦ undefined → NaN 
+        ◦ null → 0
+        ◦ true & false → 1 & 0
+        ◦ string → Elimina espacios y se queda con el número, si hay un string vacío, el resultado es 0, si hay un error devuelve NaN.
+	      Una cosa muy importante a tener en cuenta, es que si uno de los valores es un número y otro 	un string, si se utiliza + entre ambos, se concatenan, no se suma.
+
+    • ToBoolean, los valores que son vacíos, como 0, un string vacío, null, undefined y NaN, se convierten a false, mientras que de uno para arriba o un string(incluso con espacios o un 0) son true.
 
 #### Basic operators, mathematics (#basic-operators-mathematics)
 Este es el contenido de la sección "Basic operators, mathematics".
