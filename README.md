@@ -74,6 +74,8 @@ Las variables tienen dos **limitaciones**: <br>
     • El primer carácter no puede ser un dígito. <br>
 
 #### 5. Types of data
+    Hay diferentes tipos de datos en Javascript. <br>
+
     • **Number**, representa tanto números enteros como de punto flotante. <br>
       Además de los comunes, existen otros **valores especiales**, como *Infinity* y *NaN*. <br>
       
