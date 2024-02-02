@@ -113,19 +113,23 @@ Las variables tienen dos **limitaciones**: <br>
 
     • ToBoolean, los valores que son vacíos, como 0, un string vacío, null, undefined y NaN, se convierten a false, mientras que de uno para arriba o un string(incluso con espacios o un 0) son true.
 
-#### Basic operators, mathematics (#basic-operators-mathematics)
-Este es el contenido de la sección "Basic operators, mathematics".
+#### Basic operators, mathematics
+Vamos a anotar puntos importantes de los operadores:
 
-#### Comparisons (#comparisons)
+    • Si una expresión tiene más de un operador, el orden de ejecución se define por su precedencia o, en otras palabras, el orden de prioridad predeterminado de los operadores.
+      
+    • Incremento/decremento sólo puede ser aplicado a variables. Intentar utilizarlo en un valor como 5++ dará un error.
+
+#### Comparisons
 Este es el contenido de la sección "Comparisons".
 
-#### Conditional execution: if, '?' (#conditional-execution-if)
+#### Conditional execution: if, '?'
 Este es el contenido de la sección "Conditional execution: if, '?'".
 
-#### Logical Operators (#logical-operators)
+#### Logical Operators
 Este es el contenido de la sección "Logical Operators".
 
-#### Operador Nullish Coalescing '??' (#operador-nullish-coalescing)
+#### Operador Nullish Coalescing '??'
 Este es el contenido de la sección "Operador Nullish Coalescing '??'".
 
 #### Loops: while and for
@@ -165,17 +169,17 @@ En este documento voy a exponer los **básicos**:<br>
           alert(i)
           }
 
-#### 14. The "switch" statement (#the-switch-statement)
+#### 14. The "switch" statement
 Este es el contenido de la sección "The 'switch' statement".
 
-#### 16. Functions (#functions)
+#### 16. Functions
 Este es el contenido de la sección "Functions".
 
-#### 16. Function expressions (#function-expressions)
+#### 16. Function expressions
 Este es el contenido de la sección "Function expressions".dam
 
-#### 17. Arrow functions, the basics (#arrow-functions-the-basics)
+#### 17. Arrow functions, the basics
 Este es el contenido de la sección "Arrow functions, the basics".
 
-#### 18. Especiales JavaScript (#especiales-javascript)
+#### 18. Especiales JavaScript
 Este es el contenido de la sección "Especiales JavaScript".
