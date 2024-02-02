@@ -65,7 +65,13 @@ Al colocarse al principio de un script o de una función, este funciona de la *m
 Un apunte interesante, es que Javascript moderno, funciona con *clases* y *módulos*, que automáticamente habilitan el `use strict`. Por lo que no es necesario activarlo.
 
 #### 4. Variables (#variables)
-Este es el contenido de la sección "Variables".
+Podemos decir que las variables son contenedores de información, dónde guardamos datos importantes. <br>
+Lo podemos hacer uno por uno, o en línea. En línea no es tan recomendable, por la legibilidad <br>
+    • let message = 'Hola!'; <br>
+    • let user = 'John', age = 25, message = 'Hola'; <br>
+Las variables tienen dos limitaciones: <br>
+    • Solo puede incluir letras, dígitos, o los símbolos $ y _. <br>
+    • El primer carácter no puede ser un dígito. <br>
 
 #### 5. Types of data (#types-of-data)
 Este es el contenido de la sección "Types of data".
@@ -91,8 +97,42 @@ Este es el contenido de la sección "Logical Operators".
 #### 12. Operador Nullish Coalescing '??' (#operador-nullish-coalescing)
 Este es el contenido de la sección "Operador Nullish Coalescing '??'".
 
-#### 13. Bucles: while y for (#bucles-while-y-for)
-Este es el contenido de la sección "Bucles: while y for".
+#### 13. Loops: while and for
+Los bucles son una forma de repetir elementos de una lista o ejecutar un código tantas veces como se indique.<br>
+En este documento voy a exponer los *básicos*:<br>
+
+    • While, este bucle se ejecuta mientras la condición sea verdadera. Con while, primero se hace una comprobación, y si se cumple, comienza la ejecución. <br> 
+      A cada ejecución le llamamos **iteración**. <br>
+      Punto a tener en cuenta, cualquier número diferente a 0, se evalúa como verdadero. Por lo tanto, lo que se indica en la condición, es el número de iteraciones. Cuándo se llega a 0, el bucle se cierra.  <br> 
+      Además, *i++*, es muy importante, puesto que si no se pone, el bucle será infinito.<br>
+          
+          let i = 0
+          while( i < 3 ) { <br>
+            alert(“Bucle while” + 1) <br>
+            i++<br>
+            	} <br>
+
+	      let i = 3; <br>
+	      while (i) { <br>
+	      alert(i)<br>
+	      i--;<br>
+                  }	<br>
+
+    • Do...while, primero se ejecuta el cuerpo y después se comprueba la condición, esto se usa, cuándo mínimo se quiere ejecutar una vez, independientemente si se cumple o no la condición.<br> 
+	
+	let i = 0; <br>
+	do { <br>
+	 alert(i);<br>
+	 i++; <br>
+	}while (1 < 3);<br>
+
+    • For, el bucle empieza, y si la condición es **true**, se ejecuta el código.<br>
+      Podemos utilizar **break** para detener en cualquier momento el bucle, por ejemplo, si una condición no se cumple. <br>
+      Podemos utilizar **continue**, para detener el bucle solo si se cumple la condición, y seguir con el resto.
+      
+      for(let i = 0;  i < 3; i++ ) { <br>
+          alert(i) <br>
+          }<br>
 
 #### 14. The "switch" statement (#the-switch-statement)
 Este es el contenido de la sección "The 'switch' statement".
