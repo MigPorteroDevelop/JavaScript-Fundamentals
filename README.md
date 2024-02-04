@@ -121,7 +121,20 @@ Vamos a anotar puntos importantes de los operadores:
     • Incremento/decremento sólo puede ser aplicado a variables. Intentar utilizarlo en un valor como 5++ dará un error.
 
 #### Comparisons
-Este es el contenido de la sección "Comparisons".
+El resultado de las comparaciones es un **Booleano**, quiere decir, que si se cumple la comparación, es *true*, si no se cumple, es *false*. <br>
+El resultado de una comparación se puede guardar en una variable:<br>
+→ let result = 5 > 4; alert(result); → *let result = true*<br>
+La comparación es también válida para cadenas, dependiendo del orden de las letras. <br>
+→ Z > A; Bee > Be; → true<br>
+Un apunte importante, es que el diccionario utilizado para las comparaciones no es el mismo que el que usamos los humanos. Es parecido, pero no el mismo. Por ejemplo, las letras minúsculas son mayores.<br>
+En la comparación con null y undefined hay que tener cuidado, para hacer comparaciones entre ellos es mejor utilizar **===** para diferenciarlo completamente el uno del otro.<br>
+`alert( null === undefined ); // false`<br>
+Es importante destacar también, que las comparaciones con *==* no funcionan igual que las *<=*.<br> 
+Porque las compraciones con *<=* convierten null a 0.<br>
+alert( null > 0 ); /// (1) false<br>
+alert( null == 0 ); /// (2) false<br>
+alert( null >= 0 ); // (3) true<br>
+Con *undefined*, se convierte a NaN, por lo que al no ser del mismo tipo, siempre darán *false*.<br>
 
 #### Conditional execution: if, '?'
 Este es el contenido de la sección "Conditional execution: if, '?'".
