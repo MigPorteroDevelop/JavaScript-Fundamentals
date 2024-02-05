@@ -151,7 +151,23 @@ o para  varias condiciones: <br>
 `alert( result );`
 
 #### Logical Operators
-Este es el contenido de la sección "Logical Operators".
+Hay 4 operadores lógicos en Javascript: <br>
+
+**NOT(!) es mayor en precedencia que AND(&&), y este es mayor en precedencia que OR(||)**
+
+→`|| → OR` <br>
+Está pensado solo para valores **booleanos**, con que solo uno sea `true`, devuelve `true`, de lo contrario, `false`. <br>
+Si un operando no es un **booleano**, se convierte para la evaluación. Es decir, cualquier valor diferente a **0**, es `true`. <br>
+Devuelve el primer valor verdadero o el último falso. <br>
+ 
+→`&& → AND` <br>
+Este devuelve `true` solo si los dos son *verdaderos*, y `false` en caso contrario. <br>
+Retorna el primer valor falso o  el último verdadero.<br>
+
+→`! → NOT` <br>
+Retona el valor contrario. <br>
+
+→ `?? (Fusión de nulos)` <br>
 
 #### Operador Nullish Coalescing '??'
 Este es el contenido de la sección "Operador Nullish Coalescing '??'".
