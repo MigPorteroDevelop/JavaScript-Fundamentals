@@ -143,12 +143,12 @@ Si la sentencia *if* puede tener un bloque *else*, que se ejecuta siempre que el
 También se puede abreviar a: <br>
 `let result = condition ? value1 : value2;` <br>
 o para  varias condiciones: <br>
-`let result = condición 1 ? value 1: <br>
-  condición 2 ? value 2 : <br>
-  condición 3 ? value 3 : <br>
-  value 4; <br>
+`let result = condición 1 ? value 1:` <br>
+  `condición 2 ? value 2 :` <br>
+  `condición 3 ? value 3 :` <br>
+  `value 4;` <br>
 
-alert( result );`
+`alert( result );`
 
 #### Logical Operators
 Este es el contenido de la sección "Logical Operators".
