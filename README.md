@@ -153,7 +153,7 @@ o para  varias condiciones: <br>
 #### Logical Operators
 Hay 4 operadores lógicos en Javascript: <br>
 
-`NOT(!) es mayor en precedencia que AND(&&), y este es mayor en precedencia que OR(||)*`
+`**NOT(!) es mayor en precedencia que AND(&&), y este es mayor en precedencia que OR(||)**`
 
 →`|| → OR` <br>
 Está pensado solo para valores **booleanos**, con que solo uno sea `true`, devuelve `true`, de lo contrario, `false`. <br>
