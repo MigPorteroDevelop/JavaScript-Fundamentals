@@ -137,7 +137,18 @@ Porque las compraciones con *<=* convierten *null* a *0*.<br>
 Con *undefined*, se convierte a *NaN*, por lo que al no ser del mismo tipo, siempre darán *false*.<br>
 
 #### Conditional execution: if.
+La sentencia *if*, evalúa la condición entre paréntesis, y si es true, se ejecuta un código. <br>
+Para una sentencia *if*, los valores *0*, *string vacío*, *null*, *undefined*, *NaN*, son *false*, el resto son *true*. <br>
+Si la sentencia *if* puede tener un bloque *else*, que se ejecuta siempre que el bloque/s *if*, sean *false*. <br>
+También se puede abreviar a: <br>
+`let result = condition ? value1 : value2;` <br>
+o para  varias condiciones: <br>
+`let result = condición 1 ? value 1: <br>
+  condición 2 ? value 2 : <br>
+  condición 3 ? value 3 : <br>
+  value 4; <br>
 
+alert( result );`
 
 #### Logical Operators
 Este es el contenido de la sección "Logical Operators".
