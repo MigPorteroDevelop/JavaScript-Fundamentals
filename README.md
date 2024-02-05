@@ -28,19 +28,17 @@ Let's learn the basics of building code.
 
 #### 11. [Logical Operators](#logical-operators)
 
-#### 12. [Operador Nullish Coalescing '??'](#operador-nullish-coalescing)
+#### 12. [Loops: while and for](#loops-while-and-for)
 
-#### 13. [Loops: while and for](#loops-while-and-for)
+#### 13. [The "switch" statement](#the-switch-statement)
 
-#### 14. [The "switch" statement](#the-switch-statement)
+#### 14. [Functions](#functions)
 
-#### 16. [Functions](#functions)
+#### 15. [Function expressions](#function-expressions)
 
-#### 16. [Function expressions](#function-expressions)
+#### 16. [Arrow functions, the basics](#arrow-functions-the-basics)
 
-#### 17. [Arrow functions, the basics](#arrow-functions-the-basics)
-
-#### 18. [Especiales JavaScript](#especiales-javascript)
+#### 17. [Especiales JavaScript](#especiales-javascript)
 
 ## Documentation
 
@@ -168,9 +166,16 @@ Retorna el primer valor falso o  el último verdadero.<br>
 Retona el valor contrario. <br>
 
 → `?? (Fusión de nulos)` <br>
+Este trata a `null` y `undefined` de forma similar. <br>
+Una expresión es *definida* cuando no es `null` o `undefined`.  <br>
+→ `El resultado de a ?? b : `<br>
 
-#### Operador Nullish Coalescing '??'
-Este es el contenido de la sección "Operador Nullish Coalescing '??'".
+→ `si a está “definida”, será a  `<br>
+→ `si a no está “definida”, será b  `<br>
+
+Es decir, `??` devuelve el primer argumento cuando este no es null ni undefined. En caso contrario, devuelve el segundo.
+
+La diferencia con `|| → OR` es que este, devuelve el primer valor verdadero, y `??` devuelve el primer valor definido.
 
 #### Loops: while and for
 Los bucles son una forma de repetir elementos de una lista o ejecutar un código tantas veces como se indique.<br>
