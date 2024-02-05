@@ -24,7 +24,7 @@ Let's learn the basics of building code.
 
 #### 9. [Comparisons](#comparisons)
 
-#### 10. [Conditional execution if](#conditional-execution-if)
+#### 10. [Conditional execution: if, '?'](#conditional-execution-if)
 
 #### 11. [Logical Operators](#logical-operators)
 
@@ -136,8 +136,7 @@ Porque las compraciones con *<=* convierten *null* a *0*.<br>
 *alert( null >= 0 ); // (3) true*<br>
 Con *undefined*, se convierte a *NaN*, por lo que al no ser del mismo tipo, siempre darán *false*.<br>
 
-#### Conditional execution: if, '?'
-
+#### Conditional execution: if.
 
 #### Logical Operators
 Este es el contenido de la sección "Logical Operators".
