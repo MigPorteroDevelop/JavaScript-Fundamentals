@@ -138,6 +138,7 @@ Con *undefined*, se convierte a *NaN*, por lo que al no ser del mismo tipo, siem
 
 #### Conditional execution: if.
 
+
 #### Logical Operators
 Este es el contenido de la sección "Logical Operators".
 

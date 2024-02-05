@@ -1,5 +1,58 @@
 <html>
-    <script>
-        
-    </script>
+  <script>
+    let accessAllowed;
+    let age = prompt("How old are you?", "");
+
+    if (age > 18) {
+      accessAllowed = true;
+    } else {
+      accessAllowed = false;
+    }
+
+    alert(accessAllowed);
+
+    ////////////////////////////////////////////////////
+
+    let otherAge = prompt("How old are you?", "");
+
+    let allowedAge = (otherAge >= 18) ? true : false;
+    //Is the same than:
+    //let accessAllowed = age > 18 ? true : false;
+
+    alert(allowedAge);
+
+
+    ////////////////////////////////////////////////////
+
+    let oficialName = prompt("What is the``official`` name of JavaScript?");
+
+    if( oficialName == "ECMAScript"){
+        alert("Correct")
+    }else{
+        alert("You don't know??")
+    }
+
+    ////////////////////////////////////////////////////
+
+    let number = prompt("Introduce a number?", "");
+
+    let numberResult = (number > 0) ? "1" :
+    (number < 0 ) ? "-1": 
+    "0";
+
+    alert(numberResult);
+
+    ////////////////////////////////////////////////////
+
+    let login = prompt("Who are you?", "");
+
+    let message = 
+    (login == "Employee") ? "Hi man" :
+    (login == "Boss" ) ? "Welcome boss": 
+    (login == "" ) ? "No sesion": 
+    "No answer";
+
+    alert(message);   
+
+</script>
 </html>
