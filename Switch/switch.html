@@ -1,0 +1,66 @@
+<html>
+  <script>
+    let a = 2 + 3;
+
+    switch (a) {
+      case 3:
+        alert("Too small");
+        break;
+      case 4:
+        alert("¡Exact!");
+        break;
+      case 5:
+        alert("Very large");
+        break;
+      default:
+        alert("I do not know these values");
+    }
+
+    ////////////////////////////////////////////////
+
+    const fruits = [
+      "apple",
+      "pear",
+      "banana",
+      "mango",
+      "papaya",
+      "grape",
+      "kiwi",
+    ];
+
+    fruits.forEach((fruit) => {
+      switch (fruit) {
+        case "apple":
+        case "pear":
+        case "banana":
+          alert(`${fruit} is a normal fruit.`);
+          break;
+        case "mango":
+        case "papaya":
+          alert(`${fruit} is a tropical fruit.`);
+          break;
+        default:
+          alert(`${fruit} unrecognized fruit.`);
+      }
+    });
+
+    /////////////////////////////////////////////
+
+    let b = +prompt("Put a number");
+
+    switch (b) {
+      case 0:
+        alert("0");
+        break;
+      case 1:
+        alert("1");
+        break;
+      case 2:
+      case 3:
+        alert("2,3");
+        break;
+      default:
+        alert("Wrong");
+    }
+  </script>
+</html>

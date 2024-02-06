@@ -215,7 +215,43 @@ En este documento voy a exponer los **básicos**:<br>
           }
 
 #### The "switch" statement
-Este es el contenido de la sección "The 'switch' statement".
+Con la sentencia `switch` se puede reemplazar varios `if`. <br>
+```
+switch(x) {
+  case 'valor1':  // if (x === 'valor1')
+    ...
+    [break]
+
+  case 'valor2':  // if (x === 'valor2')
+    ...
+    [break]
+
+  default:
+    ...
+    [break]
+}	
+```
+Si `x` es igual(estricto) al valor del caso, si es igual, se ejecuta el código hasta que aparezca un break. <br>
+Si no se cumple ningún caso, entonces se ejecuta `default`. <br>
+Podemos utilizar agrupamiento para mostrar o ejecutar un mismo código: <br>
+```
+let a = 2 + 2;
+
+switch (a) {
+  case 4:
+    alert('¡Correct!');
+    break;
+
+  case 3:                    // (*) grouping 2 cases
+  case 5:
+    alert('¡Incorrect!');
+    alert("Why don't you take a math class?");
+    break;
+
+  default:
+    alert('The result is strange. Really.');
+}
+```
 
 #### Functions
 Este es el contenido de la sección "Functions".
