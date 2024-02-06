@@ -214,17 +214,17 @@ En este documento voy a exponer los **básicos**:<br>
           alert(i)
           }
 
-#### 14. The switch statement
+#### The "switch" statement
 Este es el contenido de la sección "The 'switch' statement".
 
-#### 16. Functions
+#### Functions
 Este es el contenido de la sección "Functions".
 
-#### 16. Function expressions
+#### Function expressions
 Este es el contenido de la sección "Function expressions".dam
 
-#### 17. Arrow functions, the basics
+#### Arrow functions, the basics
 Este es el contenido de la sección "Arrow functions, the basics".
 
-#### 18. Especiales JavaScript
+#### Especiales JavaScript
 Este es el contenido de la sección "Especiales JavaScript".
