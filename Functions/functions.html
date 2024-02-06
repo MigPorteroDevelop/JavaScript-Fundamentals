@@ -1,0 +1,39 @@
+<html>
+  <script>
+    let from = "Ann";
+
+    function showMessage(from, text) {
+      from = "*" + from + "*";
+
+      alert(from + ": " + text);
+    }
+
+    showMessage(from, "Hello");
+
+    ////////////////////////////////////////////
+
+    function showMessage(from, text = "no text") {
+      alert(from + ": " + text);
+    }
+
+    showMessage("Ann", undefined); // Ann: no text
+
+    ////////////////////////////////////////////
+
+    let age = prompt("Age");
+
+    function checkAge(age) {
+      age > 18 ? alert("Allowed") : confirm("No allowed");
+    }
+    checkAge(age);
+
+    ////////////////////////////////////////////
+
+    let num = prompt("Number please")
+
+    function checkMin(a, b){
+        if(a < b)
+    }
+
+  </script>
+</html>

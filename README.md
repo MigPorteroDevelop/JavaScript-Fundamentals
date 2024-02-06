@@ -254,7 +254,13 @@ switch (a) {
 ```
 
 #### Functions
-Este es el contenido de la sección "Functions".
+Utilizamos las **funciones** para evitar repetir código, ya que un mismo bloque de código podemos reutilizarlo tantas veces como queramos. <br>
+→ una variable declarada dentro de una función solo es visible dentro de esa función <br>
+→ las funciones pueden acceder a variables que estén fuera de ellas y modificarlas si es necesario <br>
+→ la variable externa solo se usa si no hay una local, si hay dos con el mismo nombre, una dentro y otra fuera de la función, prevalece la que está dentro. <br>
+→ si se pasan dos argumentos a la función, pero solo un valor, no daría error, pero el argumento sin valor, sería `undefined`. <br>
+→ al poner return, nunca poner expresiones en una línea a parte, siempre al lado, porque si no Javascript lo interpretará como `;` y será un `return` vacío. <br>
+→ deben ser concisas, es mejor tener varias funciones específicas que una muy larga.
 
 #### Function expressions
 Este es el contenido de la sección "Function expressions".dam
