@@ -29,11 +29,18 @@
 
     ////////////////////////////////////////////
 
-    let num = prompt("Number please")
+    let a = prompt("Number please");
+    let b = prompt("Other number");
 
-    function checkMin(a, b){
-        if(a < b)
+    function min(a, b) {
+      if (a < b) {
+        return a;
+      } else {
+        return b;
+      }
     }
 
+    let smallestNumber = min(a, b);
+    alert("The smallest is: " + smallestNumber);
   </script>
 </html>
