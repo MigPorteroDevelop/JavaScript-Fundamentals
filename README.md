@@ -214,7 +214,7 @@ En este documento voy a exponer los **básicos**:<br>
           alert(i)
           }
 
-#### 14. The "switch" statement
+#### 14. The switch statement
 Este es el contenido de la sección "The 'switch' statement".
 
 #### 16. Functions
