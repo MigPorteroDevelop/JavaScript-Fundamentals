@@ -263,7 +263,49 @@ Utilizamos las **funciones** para evitar repetir código, ya que un mismo bloque
 → deben ser concisas, es mejor tener varias funciones específicas que una muy larga.
 
 #### Function expressions
-Este es el contenido de la sección "Function expressions".dam
+Hay una sintaxis para escribir *funciones*, y es la `expresión de función`. <br>
+Una función puede ser llamada antes de ser definida, sin embargo, si es una expresión, es decir, está declarada en una variable, tiene que llamarse después de haberse creado.
+Cuando una `Declaración de Función` se encuentra dentro de un bloque de código, es visible en todas partes dentro de ese bloque. Pero no fuera de él.
+
+```
+function sayHi() {
+  alert( "Hola" );
+}
+
+let sayHi = function() {   // otra versión guardada en una variable
+  alert( "Hola" );
+};
+
+alert( sayHi );        // muestra el código de la función
+
+alert( sayHi() )      // ejecuta la función
+
+let func = sayHi;   // copia la función
+
+func(); // Hola       // ejecuta la copia 
+
+sayHi(); // Hola     // se ejecuta de forma normal	
+
+```
+
+Otra forma de *función*, es el **callback**, que es una función que se pasa a otra como argumento. <br>
+```
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+function showOk() {
+  alert( "I agree." );
+}
+
+function showCancel() {
+  alert( "Canceled." );
+}
+
+// uso: las funciones showOk, showCancel son pasadas como argumentos de ask
+ask("Estás de acuerdo?", showOk, showCancel);
+```
 
 #### Arrow functions, the basics
 Este es el contenido de la sección "Arrow functions, the basics".
