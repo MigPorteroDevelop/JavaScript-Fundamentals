@@ -36,7 +36,7 @@ Let's learn the basics of building code.
 
 #### 15. [Function expressions](#function-expressions)
 
-#### 16. [Arrow functions, the basics](#arrow-functions-the-basics)
+#### 16. [Arrow functions, the basics](#arrow-functions)
 
 #### 17. [Especiales JavaScript](#especiales-javascript)
 
