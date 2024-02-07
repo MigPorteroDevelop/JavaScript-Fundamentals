@@ -307,8 +307,12 @@ function showCancel() {
 ask("Estás de acuerdo?", showOk, showCancel);
 ```
 
-#### Arrow functions, the basics
-Este es el contenido de la sección "Arrow functions, the basics".
+#### Arrow functions
+Otra forma sencilla de crear funciones, es utilizar las `funciones flecha`. Son muy convenientes para acciones simples de una línea. <br>
+
+→ si solo tenemos un argumento, se pueden omitir paréntesis alrededor de los parámetros, lo que lo hace aún más corto.
+→ si no hay parámetros, los paréntesis estarán vacíos, pero deben estar presentes.
+→ Con llaves, se nos permite escribir varias declaraciones dentro de la función, pero necesitamos un *return* explícito para devolver algo.
 
 #### Especiales JavaScript
 Este es el contenido de la sección "Especiales JavaScript".
