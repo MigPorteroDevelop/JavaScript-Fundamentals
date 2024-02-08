@@ -44,13 +44,13 @@ Let's learn the basics of building code.
 Le etiqueta `<script></script>` se puede colocar en casi cualquier parte del documento HTML. <br>
 La etiqueta `<script></script>` tiene algunos atributos, que ya no se utilizan en la actualidad. <br>
 Otro punto a tener en cuenta es que si tenemos una parte de código en Javascript, que es extensa, mejor la ponemos en un archivo a parte, así tenemos el código mas organizado y podemos trabajar mejor con él. <br>
-Además, el navegador lo guardará en **caché**. Por lo que el código solo se descargará una vez, reduciendo el **tiempo de carga**.
+Además, el navegador lo guardará en **caché**. Por lo que el código solo se descargará una vez, reduciendo el **tiempo de carga**.<br>
 
 #### Code structure
 Ahora vamos a ver que son *sentencias*. <br>
 Son la sintaxis y comandos que realizan acciones, como por ejemplo el alert del módulo anterior, que muestra un mensaje. <br>
 Las podemos separar con `;` para que quede mas organizado, y se ejecutarán una detrás de otra. <br> 
-Siempre es recomendable ponerlo entre sentencias para que no haya errores de código.
+Siempre es recomendable ponerlo entre sentencias para que no haya errores de código.<br>
 
 #### The modern "use strict" mode
 El `use strict` se utiliza para solucionar problemas de compatibilidad. <br>
@@ -58,7 +58,8 @@ Se puede combinar sintaxis antigua de Javascript y nueva.<br>
 A lo largo el tiempo, Javascript ha evolucionado sin problemas de compatibilidad, pero en 2009, se añadieron nuevas características al lenguaje y se modificaron otras.<br>
 Para mantener el código antiguo funcionando correctamente, las modificaciones están desactivadas por defecto, y aquí es cuándo entra en juego `use strict`. <br>
 Al colocarse al principio de un script o de una función, este funciona de la **manera moderna**.<br>
-Un apunte interesante, es que Javascript moderno, funciona con **clases** y **módulos**, que automáticamente habilitan el `use strict`. Por lo que no es necesario activarlo.
+Un apunte interesante, es que Javascript moderno, funciona con **clases** y **módulos**, que automáticamente habilitan el `use strict`.<br> 
+Por lo que no es necesario activarlo.<br>
 
 #### Variables
 Podemos decir que las variables son **contenedores** de información, dónde guardamos **datos** importantes. <br>
@@ -87,7 +88,7 @@ Las variables tienen dos **limitaciones**: <br>
     • Object y Symbol, los objetos pueden almacenar un conjunto de datos y entidades complejas.
       Symbol se utiliza para crear identificadores únicos para estos objetos.
       
-    • El operador typeof, devuelve el tipo de dato del operando. Es importante decir que es un operador y no una    función.
+    • El operador typeof, devuelve el tipo de dato del operando. Es importante decir que es un operador y no una función.
       Se utiliza (), por agrupación matemática, no por ser parte del operador.
 
 #### Interaction: alert, prompt, confirm
@@ -110,8 +111,7 @@ Las variables tienen dos **limitaciones**: <br>
     • ToBoolean, los valores que son vacíos, como 0, un string vacío, null, undefined y NaN, se convierten a false, mientras que de uno para arriba o un string(incluso con espacios o un 0) son true.
 
 #### Basic operators, mathematics
-Vamos a anotar puntos importantes de los operadores:
-
+Vamos a anotar puntos importantes de los operadores: <br>
     • Si una expresión tiene más de un operador, el orden de ejecución se define por su precedencia o, en otras palabras, el orden de prioridad predeterminado de los operadores.
       
     • Incremento/decremento sólo puede ser aplicado a variables. Intentar utilizarlo en un valor como 5++ dará un error.
@@ -144,12 +144,12 @@ o para  varias condiciones: <br>
   `condición 3 ? value 3 :` <br>
   `value 4;` <br>
 
-`alert( result );`
+`alert( result );`<br>
 
 #### Logical Operators
 Hay 4 operadores lógicos en Javascript: <br>
 
-`**NOT(!) es mayor en precedencia que AND(&&), y este es mayor en precedencia que OR(||)**`
+`**NOT(!) es mayor en precedencia que AND(&&), y este es mayor en precedencia que OR(||)**`<br>
 
 →`|| → OR` <br>
 Está pensado solo para valores **booleanos**, con que solo uno sea `true`, devuelve `true`, de lo contrario, `false`. <br>
@@ -167,13 +167,12 @@ Retona el valor contrario. <br>
 Este trata a `null` y `undefined` de forma similar. <br>
 Una expresión es *definida* cuando no es `null` o `undefined`.  <br>
 → `El resultado de a ?? b : `<br>
-
 → `si a está “definida”, será a  `<br>
 → `si a no está “definida”, será b  `<br>
 
-Es decir, `??` devuelve el primer argumento cuando este no es null ni undefined. En caso contrario, devuelve el segundo.
+Es decir, `??` devuelve el primer argumento cuando este no es null ni undefined. En caso contrario, devuelve el segundo.<br>
 
-La diferencia con `|| → OR` es que este, devuelve el primer valor verdadero, y `??` devuelve el primer valor definido.
+La diferencia con `|| → OR` es que este, devuelve el primer valor verdadero, y `??` devuelve el primer valor definido.<br>
 
 #### Loops: while and for
 Los bucles son una forma de repetir elementos de una lista o ejecutar un código tantas veces como se indique.<br>
@@ -262,7 +261,7 @@ Utilizamos las **funciones** para evitar repetir código, ya que un mismo bloque
 
 #### Function expressions
 Hay una sintaxis para escribir *funciones*, y es la `expresión de función`. <br>
-Una función puede ser llamada antes de ser definida, sin embargo, si es una expresión, es decir, está declarada en una variable, tiene que llamarse después de haberse creado.
+Una función puede ser llamada antes de ser definida, sin embargo, si es una expresión, es decir, está declarada en una variable, tiene que llamarse después de haberse creado.<br>
 Cuando una `Declaración de Función` se encuentra dentro de un bloque de código, es visible en todas partes dentro de ese bloque. Pero no fuera de él.
 
 ```
@@ -308,6 +307,6 @@ ask("Estás de acuerdo?", showOk, showCancel);
 #### Arrow functions
 Otra forma sencilla de crear funciones, es utilizar las `funciones flecha`. Son muy convenientes para acciones simples de una línea. <br>
 
-→ si solo tenemos un argumento, se pueden omitir paréntesis alrededor de los parámetros, lo que lo hace aún más corto.
-→ si no hay parámetros, los paréntesis estarán vacíos, pero deben estar presentes.
+→ si solo tenemos un argumento, se pueden omitir paréntesis alrededor de los parámetros, lo que lo hace aún más corto.<br>
+→ si no hay parámetros, los paréntesis estarán vacíos, pero deben estar presentes.<br>
 → Con llaves, se nos permite escribir varias declaraciones dentro de la función, pero necesitamos un *return* explícito para devolver algo.
