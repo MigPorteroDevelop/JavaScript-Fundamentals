@@ -38,8 +38,6 @@ Let's learn the basics of building code.
 
 #### 16. [Arrow functions, the basics](#arrow-functions)
 
-#### 17. [Especiales JavaScript](#especiales-javascript)
-
 ## Documentation
 
 #### Hello, world!
@@ -315,4 +313,3 @@ Otra forma sencilla de crear funciones, es utilizar las `funciones flecha`. Son 
 → Con llaves, se nos permite escribir varias declaraciones dentro de la función, pero necesitamos un *return* explícito para devolver algo.
 
 #### Especiales JavaScript
-Este es el contenido de la sección "Especiales JavaScript".
