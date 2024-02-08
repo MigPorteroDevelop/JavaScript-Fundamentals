@@ -311,5 +311,3 @@ Otra forma sencilla de crear funciones, es utilizar las `funciones flecha`. Son 
 → si solo tenemos un argumento, se pueden omitir paréntesis alrededor de los parámetros, lo que lo hace aún más corto.
 → si no hay parámetros, los paréntesis estarán vacíos, pero deben estar presentes.
 → Con llaves, se nos permite escribir varias declaraciones dentro de la función, pero necesitamos un *return* explícito para devolver algo.
-
-#### Especiales JavaScript
