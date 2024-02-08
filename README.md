@@ -112,6 +112,7 @@ Las variables tienen dos **limitaciones**: <br>
 
 #### Basic operators, mathematics
 Vamos a anotar puntos importantes de los operadores: <br>
+
     • Si una expresión tiene más de un operador, el orden de ejecución se define por su precedencia o, en otras palabras, el orden de prioridad predeterminado de los operadores.
       
     • Incremento/decremento sólo puede ser aplicado a variables. Intentar utilizarlo en un valor como 5++ dará un error.
@@ -127,9 +128,9 @@ En la comparación con null y undefined hay que tener cuidado, para hacer compar
 `alert( null === undefined ); // false`<br>
 Es importante destacar también, que las comparaciones con *==* no funcionan igual que las *<=*.<br> 
 Porque las compraciones con *<=* convierten *null* a *0*.<br>
-*alert( null > 0 ); /// (1) false*<br>
-*alert( null == 0 ); /// (2) false*<br>
-*alert( null >= 0 ); // (3) true*<br>
+-> *alert( null > 0 ); /// (1) false*<br>
+-> *alert( null == 0 ); /// (2) false*<br>
+-> *alert( null >= 0 ); // (3) true*<br>
 Con *undefined*, se convierte a *NaN*, por lo que al no ser del mismo tipo, siempre darán *false*.<br>
 
 #### Conditional execution: if.
@@ -138,7 +139,9 @@ Para una sentencia *if*, los valores *0*, *string vacío*, *null*, *undefined*, 
 Si la sentencia *if* puede tener un bloque *else*, que se ejecuta siempre que el bloque/s *if*, sean *false*. <br>
 También se puede abreviar a: <br>
 `let result = condition ? value1 : value2;` <br>
+
 o para  varias condiciones: <br>
+
 `let result = condición 1 ? value 1:` <br>
   `condición 2 ? value 2 :` <br>
   `condición 3 ? value 3 :` <br>
@@ -166,9 +169,9 @@ Retona el valor contrario. <br>
 → `?? (Fusión de nulos)` <br>
 Este trata a `null` y `undefined` de forma similar. <br>
 Una expresión es *definida* cuando no es `null` o `undefined`.  <br>
-→ `El resultado de a ?? b : `<br>
-→ `si a está “definida”, será a  `<br>
-→ `si a no está “definida”, será b  `<br>
+→ ```El resultado de a ?? b : <br>
+→ si a está “definida”, será a  <br>
+→ si a no está “definida”, será b  ```<br>
 
 Es decir, `??` devuelve el primer argumento cuando este no es null ni undefined. En caso contrario, devuelve el segundo.<br>
 
@@ -309,4 +312,4 @@ Otra forma sencilla de crear funciones, es utilizar las `funciones flecha`. Son 
 
 → si solo tenemos un argumento, se pueden omitir paréntesis alrededor de los parámetros, lo que lo hace aún más corto.<br>
 → si no hay parámetros, los paréntesis estarán vacíos, pero deben estar presentes.<br>
-→ Con llaves, se nos permite escribir varias declaraciones dentro de la función, pero necesitamos un *return* explícito para devolver algo.
+→ con llaves, se nos permite escribir varias declaraciones dentro de la función, pero necesitamos un *return* explícito para devolver algo.
