@@ -113,9 +113,9 @@ Las variables tienen dos **limitaciones**: <br>
 #### Basic operators, mathematics
 Vamos a anotar puntos importantes de los operadores: <br>
 
-    • Si una expresión tiene más de un operador, el orden de ejecución se define por su precedencia o, en otras palabras, el orden de prioridad predeterminado de los operadores.
+    -> Si una expresión tiene más de un operador, el orden de ejecución se define por su precedencia o, en otras palabras, el orden de prioridad predeterminado de los operadores.
       
-    • Incremento/decremento sólo puede ser aplicado a variables. Intentar utilizarlo en un valor como 5++ dará un error.
+    -> Incremento/decremento sólo puede ser aplicado a variables. Intentar utilizarlo en un valor como 5++ dará un error.
 
 #### Comparisons
 El resultado de las comparaciones es un **Booleano**, quiere decir, que si se cumple la comparación, es *true*, si no se cumple, es *false*. <br>
